@@ -50,7 +50,7 @@ export default {
   },
   created(){
     setTimeout(()=>{
-      this.obj.age = 18
+      this.ob.age = 18
       // this.$emit('change',18)
       bus.$emit('change',18)
     },3000)
