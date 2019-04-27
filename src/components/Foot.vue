@@ -1,5 +1,5 @@
 <template>
-     <div class="bottom-nav">
+     <div class="bottom-nav" >
       <ul>
         <li :class="{active:index === curIndex}" v-for="(list,index) in navConfig" :key="index"
         @click="changeNav(list,index)"
